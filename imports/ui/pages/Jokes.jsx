@@ -7,6 +7,7 @@ import Button    from 'react-bootstrap/Button';
 
 import { AiOutlineLogout } from 'react-icons/ai';
 
+
 import './Jokes.css';
 
 class Jokes extends Component {
@@ -20,7 +21,12 @@ class Jokes extends Component {
         <div>
             <h1 className="header">
                Bienvenue sur le générateur de blagues
+               <Button className="logout" onClick={this.handleClick}>
+                    <AiOutlineLogout></AiOutlineLogout>
+                </Button>
             </h1>
+            <ViewJoke />
+            <ViewJokes />
 
         </div>
         );

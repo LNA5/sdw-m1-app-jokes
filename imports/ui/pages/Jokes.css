@@ -4,8 +4,10 @@
 
 .header {
     text-align: center;
-    background-color:greenyellow;
-    padding:2em;
+    background-color: greenyellow;
+    padding: 1em;
+    margin: 2em;
+    border-radius: 10px;
 }
 .logout {
     float:right;

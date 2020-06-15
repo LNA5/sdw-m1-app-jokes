@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 import Form      from 'react-bootstrap/Form';
 import Button    from 'react-bootstrap/Button';
 
-class CreateNewJokes extends Component {
+class CreateNewJoke extends Component {
     state = {
         content: "",
     }
@@ -42,4 +42,4 @@ class CreateNewJokes extends Component {
     };
 };
 
-export default CreateNewJokes;
+export default CreateNewJoke;

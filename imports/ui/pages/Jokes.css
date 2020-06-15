@@ -4,7 +4,8 @@
 
 .header {
     text-align: center;
-    background-color: sandybrown;
+    background-color:greenyellow;
+    padding:2em;
 }
 .logout {
     float:right;

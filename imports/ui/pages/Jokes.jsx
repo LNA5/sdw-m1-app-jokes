@@ -19,7 +19,7 @@ class Jokes extends Component {
         return (
         <div>
             <h1 className="header">
-               Hello
+               Bienvenue sur le générateur de blagues
             </h1>
 
         </div>
